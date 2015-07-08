@@ -1,0 +1,24 @@
+{
+  "name": "query_overpass_tiler",
+  "version": "1.0.0",
+  "description": "\"Tile queries to OpenStreetMap's overpass API and output as GeoJson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "osm",
+    "overpass",
+    "geojson"
+  ],
+  "author": "shkfnly",
+  "license": "ISC",
+  "dependencies": {
+    "geojson-merge": "^0.1.0",
+    "query-overpass": "^1.0.0"
+  }
+}
